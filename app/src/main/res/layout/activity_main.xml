@@ -57,11 +57,11 @@
         android:layout_width="182dp"
         android:layout_height="49dp"
         android:layout_marginStart="50dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="76dp"
         android:text="OK"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintHorizontal_bias="0.418"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
