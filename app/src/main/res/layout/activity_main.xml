@@ -13,7 +13,7 @@
         android:layout_width="221dp"
         android:layout_height="198dp"
         android:layout_marginBottom="104dp"
-        app:layout_constraintBottom_toTopOf="@+id/textIngresar"
+        app:layout_constraintBottom_toTopOf="@+id/textMonto"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
@@ -82,13 +82,13 @@
         tools:background="#673AB7" />
 
     <EditText
-        android:id="@+id/textIngresar"
+        android:id="@+id/textMonto"
         android:layout_width="273dp"
         android:layout_height="57dp"
         android:layout_marginBottom="120dp"
         android:ems="10"
         android:hint="Monto"
-        android:inputType="text"
+        android:inputType="number"
         app:layout_constraintBottom_toTopOf="@+id/buttonOk"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
